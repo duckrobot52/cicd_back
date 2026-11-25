@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MainController {
     @GetMapping("/")
-    public String index(){ return "GitHub Actions를 이용한 first CI/CD TEST- github action에서 모든일 하기~~"; }
+    public String index(){ return "GitHub Actions를 이용한 first CI/CD TEST- Docker img로 배포하기"; }
 
 }
